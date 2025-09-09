@@ -22,7 +22,7 @@
 
   @media (width < 767px) {
     width: 100%;
-    padding: 0 calc(var(--ids__density) * 0.6em);
+    padding: 0 calc(var(--ids__density) * 1em);
   }
 
   &.L {
