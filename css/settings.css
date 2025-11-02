@@ -5,14 +5,14 @@
 /* Fonts */
 
 @font-face {
-  font-family: "Golos";
+  font-family: "Roobert";
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/GolosText-VariableFont_wght.ttf") format("truetype");
+  src: url("../fonts/RoobertCollectionVF-TRIAL.woff2") format("woff2");
 }
 
 body {
-  font-family: "Golos";
+  font-family: "Roobert";
   -webkit-font-smoothing: antialiased;
   font-weight: 400;  
 }
