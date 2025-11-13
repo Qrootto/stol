@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-background: 27, 16, 38;
+    --color-surface: 89, 27, 27;
+    --color-accent: 217, 70, 37;
+    --color-accent-hover: 60, 245, 245;
+    --color-text-primary: 180, 180, 180;
+    --color-text-h: 255, 255, 255;
+}
+
+@font-face {
+    font-family: "Roobert";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("../fonts/Roobert-Light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Roobert";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/Roobert-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Roobert";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("../fonts/Roobert-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Roobert";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("../fonts/Roobert-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Roobert";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../fonts/Roobert-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Roobert";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("../fonts/Roobert-Heavy.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Zangezi";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("../fonts/Zangezi08-Condensed.woff2") format("woff2");
+}
+
+html {
+    font-size:26px;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+    height: 100%;
+
+    @media (max-width: 768px) {
+        font-size: 19px;
+    } 
+}
+
+body {  
+    font-family: "Roobert";
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(var(--color-text-primary), 1);
+    background-color: rgba(var(--color-background), 1);
+    margin: 0;
+}
